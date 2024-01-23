@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height:100%;
+}
+
+
+div.clear{
+	clear: both;
+}
+
+
+section.container{
+	height: 100vh;
+	/*background-color: #4f5a5e;*/
+}
+
+h2{
+	margin-left:200px;
+	padding-top: 50px;
+	padding-left: 90px;
+	font-size: 40px;
+	color: #31c3d6;
+}
+
+/*
+div.border{
+	width: 600px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}*/
+
+p{
+	margin-left: 180px;
+	padding-left: 50px;
+	font-size:25px;
+	font-style: oblique;
+	/*color: #31c3d6;*/
+	color: black;
+}
+
+form{
+	width: 400px;
+	height: 480px;
+	margin-left: 185px;
+	margin-top: 30px;
+	padding-left: 50px;
+	padding-top: 70px;
+	border: 2px solid #31c3d6;
+	border-radius: 75px;
+	/*background-color: black;*/
+}
+
+
+form input[type="text"]{
+	margin: 15px;
+	padding: 15px;
+	width: 250px;
+	height: 30px;
+	text-align: left;
+	border: 1px solid #31c3d6;
+	border-radius: 15px;
+}
+
+form div input[type="Button"]{
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+form input[type="Button"]{
+	margin: 15px;
+	width: 150px;
+	height: 30px;
+	color: white;
+	font-style: oblique;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+	border: 2px solid #31c3d6;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+form input[type="Button"]:hover{
+	border: 3px solid #31c3d6;
+	box-shadow: #31c3d6 0px 0px 12px 1px inset,
+	            #31c3d6 0px 0px 12px 1px;
+
+}
+
+
+img.img1{
+	width: 250px;
+	height: 250px;
+	margin-right: 350px;
+	margin-top:-500px;
+	float: right;
+	border-radius: 120px;
+	animation-name: anim-img1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: #31c3d6 0px 0px 12px 1px inset,
+	            #31c3d6 0px 0px 12px 1px;
+}
+
+img.img2{
+	width: 250px;
+	height: 250px;
+	margin-right: 50px;
+	margin-top:-600px;
+	float: right;
+	border-radius: 120px;
+	animation-name: anim-img2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: #31c3d6 0px 0px 12px 1px inset,
+	            #31c3d6 0px 0px 12px 1px;
+}
+
+img.img3{
+	width: 250px;
+	height: 250px;
+	margin-right: 120px;
+	margin-top:-280px;
+	float: right;
+	border-radius: 120px;
+	animation-name: anim-img3;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	box-shadow: #31c3d6 0px 0px 12px 1px inset,
+	            #31c3d6 0px 0px 12px 1px;
+}
+
+@keyframes anim-img1{
+	0%{	width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	25%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+	50%{width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	100%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+}
+
+@keyframes anim-img2{
+	0%{	width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	25%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+	50%{width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	100%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+}
+
+@keyframes anim-img3{
+	0%{	width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	25%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+	50%{width: 250px;
+		height: 250px;
+		border-radius: 120px;}
+	100%{width: 300px;
+		height: 300px;
+		border-radius: 170px;}
+}
+
+@media screen and (max-width: 648px){
+	
+}
